@@ -3,7 +3,7 @@ from pymongo.server_api import ServerApi
 import os
 from typing import Optional
 
-MONGODB_URL = os.getenv("MONGODB_URL", "mongodb+srv://vickykumar776655:ztpFeM5U1TdLinoT@feedback.c8anxdj.mongodb.net/?retryWrites=true&w=majority&appName=Feedback")
+MONGODB_URL = os.getenv("MONGODB_URL", "mongodb+srv://kavitasoren2000:7srJ2njK10iN7ArW@cluster0.8yie9sh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = "feedback_system"
 
 client: Optional[AsyncIOMotorClient] = None
