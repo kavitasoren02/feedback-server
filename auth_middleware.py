@@ -17,7 +17,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 30
 COOKIE_NAME = "access_token"
 COOKIE_MAX_AGE = ACCESS_TOKEN_EXPIRE_MINUTES * 60 
 COOKIE_DOMAIN = os.getenv("COOKIE_DOMAIN", None)  
-COOKIE_SECURE = os.getenv("COOKIE_SECURE", "false").lower() == "true"  
+COOKIE_SECURE = "true"  
 COOKIE_SAMESITE = "none"  
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
